@@ -258,3 +258,9 @@ body.darkmode {
     top: 16rem;
     top: -1rem;
 }
+
+@media screen and (max-width: 600px) {
+    .contenedor {
+        transform: translate(-50%, -50%) scale(0.4);
+    }
+}
